@@ -13,11 +13,13 @@ prendersi una key API per developer da sostituire.... per json o xml
 
 ```php
 
-<?php $json_string = file_get_contents("http://api.wunderground.com/api/"key"/conditions/q/pws:IPISTOIA4.json"); 
-$parsed_json = json_decode($json_string); 
-$location = $parsed_json->{'location'}->{'city'}; 
-$temp_f = $parsed_json->{'current_observation'}->{'temp_f'};
-echo "Current temperature in ${location} is: ${temp_f}\n"; ?>
+<?php 
+ $json_string = file_get_contents("http://api.wunderground.com/api/"key"/conditions/q/pws:IPISTOIA4.json"); 
+ $parsed_json = json_decode($json_string); 
+ $location = $parsed_json->{'location'}->{'city'}; 
+ $temp_f = $parsed_json->{'current_observation'}->{'temp_f'};
+ echo "Current temperature in ${location} is: ${temp_f}\n"; 
+ ?>
 
 ```
 
