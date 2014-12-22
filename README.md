@@ -7,9 +7,12 @@ Lista delle stazioni meteo amatoriali italiane
 E' facile dopo l'iscrizione al servizio Wunderground.com
 
 http://www.wunderground.com/weather/api/
+
 http://www.wunderground.com/weather/api/d/docs
 
-prendersi una key API per developer da sostituire.... per json o xml
+prendersi una key API per developer da sostituire nella chiamata al posto di key .... per fare un json o xml su cui fare parsing o ritrasformare in feed Atom per notiche IFFFT.
+
+
 
 ```php
 
