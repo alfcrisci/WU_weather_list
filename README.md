@@ -23,7 +23,7 @@ prendersi una key API per developer da sostituire.... per json o xml
 
 ```
 
-e avere ad esempio per campotizzoro PIstoia questo .....
+e avere ad esempio per campotizzoro Pistoia questo ..... i codici delle stazioni nel file csv.
 
 
 ```js
